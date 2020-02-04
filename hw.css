@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(233, 95, 31);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+input { 
+    text-align: center; 
+}
+
+::placeholder{
+    text-align: center;
+}
+
+.header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.geneBox {
+        width: 600px;
+        border: 15px double black;
+        padding: 50px;
+        margin: 20px auto;
+        background-color: white;
+}
+
+
+#generatePasswordText {
+    text-align: center;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#passwordWindow {
+    width: 300px;
+    height: 100px;
+}
+
+.charRemaining {
+    border: 1px solid black;
+}
+

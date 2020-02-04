@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<hmtl lang="en-us">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="hw.css">
+<title> Password Generator </title>
+</head>
+
+<body style="background-color:lightgrey">
+
+<div class="header">
+    <h1>
+        SUPER SECRET PASSWORD GENERATOR
+    </h1>
+</div>
+
+<div class="geneBox">
+     
+    <form>
+        How Many Total Charicters Would You Like This Password To Be<br><br>
+        <input id="totalChars" type="text" name="firstname"  placeholder="8-128"
+        onchange="document.getElementById(charleft).value = input1 - input2 - input3 - input4 - input5>
+            <br><br>
+        How Many Capital Letters
+            <br><br>
+        <input id="capitals" type="text" name="lastname" value=""
+        onkeyup="document.getElementById(charleft).value = input1 - input2 - input3 - input4 - input5>
+            <br><br>
+        How Many Lower-Case Letters
+            <br><br>
+        <input id="lowers" type="text" name="firstname" value=""
+        onkeyup="document.getElementById(charleft).value = input1 - input2 - input3 - input4 - input5>
+            <br><br>
+        How Many Numbers:
+            <br><br>
+        <input id="numbers" type="text" name="lastname" value=""
+        onkeyup="document.getElementById(charleft).value = input1 - input2 - input3 - input4 - input5>
+            <br><br>
+        How Many Special Charicters:
+            <br><br>
+        <input id="specialChars" type="text" name="lastname" value=""
+        onkeyup="document.getElementById(charleft).value = input1 - input2 - input3 - input4 - input5>
+            <br>
+   
+    </form>
+    
+    <br><br>
+    <h2>Total Charicters Left To Use:</h2>
+        
+        
+        <div>
+            <h1> <input type="text" id=charLeft value=""></h1>
+        </div>
+    
+        <br><br>
+
+    
+        <div>
+            <button id="passGenerate"> GENERATE </button>
+        </div>
+    
+    
+
+
+</div>
+
+
+
+<script src="./hw.js"></script>
+</body>
+
+</hmtl>
